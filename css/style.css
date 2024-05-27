@@ -119,6 +119,37 @@ button {
 nav {
   background-color: #1992D4;
   grid-area: 1 / 1 / 3 / 2;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 30px;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+nav .logo img {
+  width: 4rem;
+}
+
+nav img {
+  filter: invert(100%);
+  width: 2rem;
+}
+
+nav .text {
+  font-weight: 700;
+  color: white;
 }
 
 main {
